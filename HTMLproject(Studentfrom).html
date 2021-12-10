@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Header-->
+    <h1 style="text-align: center;">Sign Up Form</h1>
+    <hr>
+    <!--Name-->
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="user name"><br>
+    <!--Email-->
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" placeholder="user mail"><br>
+    <!--Password-->
+    <label for="pass">Password:</label>
+    <input type="password" name="password" id="pass" placeholder="password"><br>
+    <!--Phone-->
+    <label for="phone">Phone:</label><br>
+    <select name="code">
+        <option value="+880" >+880</option>
+        <option value="+971" >+971</option>
+        <option value="+780" >+780</option>
+    </select>
+    <input type="number" id="phone" name="phoneID" placeholder="123456789"><br>
+    <br>
+    <!--Country-->
+    <label for="country">Country:</label>
+    <input list="list" placeholder="country">
+    <datalist id="list">
+        <option value="Bangladesh"></option>
+        <option value="India"></option>
+        <option value="USA"></option>
+    </datalist><br>
+    <!--Gender-->
+    Gender:
+    <input type="radio" name="gender" id="gender1">
+    <label for="gender1">Male</label>
+    <input type="radio" name="gender" id="gender2">
+    <label for="gender2">Female</label>
+    <br>
+    <!--Date of Birth-->
+    <label for="date">Date of Birth:</label>
+    <input type="date" id="date" name="dateID"><br>
+    <!--Time-->
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="timeID"><br>
+    <!--Colors-->
+    <label for="color">Colors</label>
+    <input type="color" id="color" name="colorID"><br>
+    <!--Choose File-->
+    <label for="file">Choose Photo</label>
+    <input type="file" id="file" name="fileID"><br>
+    <!--Vehicle-->
+    <input type="checkbox" id="checkbox" name="checkboxID">
+    <label for="checkbox">I have a Car</label>
+    <input type="checkbox" id="checkbox2" name="checkboxID">
+    <label for="checkbox2">I have a Bycycle</label><br>
+    <!--Comment Box-->
+    <textarea rows="7" cols="100" placeholder="Comment Here"></textarea>
+    <br>
+    <!--Button-->
+    <input type="submit" value="Send">
+    <input type="submit" value="Reset">
+</body>
+</html>
